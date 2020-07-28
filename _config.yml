@@ -1,0 +1,40 @@
+title: 030-Bootycall
+description: >
+  Willkommen in Berlin, der Hauptstadt der Singles. 
+  In diesem Berlin-Podcast geht es ordentlich zur Sache. 
+  Gastgeber Caramel Mafia hat in jeder Folge ein spannendes Date und Ihr seid live dabei. 
+  Ganz egal ob Horrordate, Sexpanne oder vorgetäuschter Orgasmus von Männern - 
+  hier wird kein Blatt vor den Mund genommen.
+permalink: ':title/'
+baseurl: "/"
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Author Settings
+author: Caramel Mafia
+author-img: caramel-mafia.jpg
+
+# Available social icons are powered by Font Awesome, so you can use any icon that they offer
+social:
+- {title: 'Spotify', icon: 'spotify', link: 'https://open.spotify.com/show/4WTV5Mef71ic58gga2cdMN'}
+- {title: 'iTunes', icon: 'apple', link: 'https://podcasts.apple.com/gb/podcast/030-bootycall-der-etwas-andere-berlin-dating-podcast/id1499045730'}
+# - {title: '', icon: 'bar-chart', link: 'https://www.deezer.com/en/show/363872'}
+- {title: 'hearthis.at', icon: 'heart', link: 'https://hearthis.at/030bootycall'}
+- {title: 'Instagram', icon: 'instagram', link: 'https://www.instagram.com/030bootycall'}
+- {title: 'Facebook', icon: 'facebook', link: 'https://www.facebook.com/030Bootycall'}
+- {title: 'RSS Feed', icon: 'rss-square', link: 'https://030-bootycall.podigee.io/feed/mp3'}
+- {title: 'E-Mail', icon: 'envelope-o', link: 'mailto:post@030-bootycall.de'}
+
+# Tracker
+analytics: # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 4
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
