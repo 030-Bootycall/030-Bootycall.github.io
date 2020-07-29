@@ -145,6 +145,11 @@ table tfoot td {
     clear: both;
 }
 
+ul {
+    padding-inline-start: 0;
+}
+
+
 /* - - - - - - - - - - Home Page Styles - - - - - - - - - - */
 @import 'parts/home-page';
 

@@ -1,12 +1,24 @@
-<div class="container">
-    <nav class="pagination" role="pagination">
-        <ul>
+<nav class="pagination" role="pagination">
+    <ul>
+        <p>
             {% if page.previous.url %}
-            <p><a class="newer-posts" href="{{ page.previous.url }}"><i class="fa fa-long-arrow-left" aria-hidden="true"></i></a></p>
+            <a class="newer-posts" href="{{ page.previous.url }}"><i class="fa fa-backward" aria-hidden="true"></i></a>
+            <span class="newer-posts">&nbsp;&nbsp;{{ page.previous.title }}</span>
+            {% else %}
+            <span class="newer-posts">&nbsp;&nbsp;</span>
             {% endif %}
-            {% if page.next.url %}
-            <p><a class="older-posts" href="{{ page.next.url }}"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></p>
+        </p>
+    </ul>
+</nav>
+<nav class="pagination" role="pagination">
+    <ul>
+        <p>
+            {% if page.next.url %}    
+            <span class="older-posts">{{ page.next.title }}&nbsp;&nbsp;</span>
+            <a class="older-posts" href="{{ page.next.url }}"><i class="fa fa-forward" aria-hidden="true"></i></a>
+            {% else %}
+            <span class="older-posts">&nbsp;&nbsp;</span>
             {% endif %}
-        </ul>
-    </nav>
-</div>
+        </p>
+    </ul>
+</nav>
