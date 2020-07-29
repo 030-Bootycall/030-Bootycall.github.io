@@ -6,7 +6,7 @@ description: >
   Ganz egal ob Horrordate, Sexpanne oder vorgetäuschter Orgasmus von Männern - 
   hier wird kein Blatt vor den Mund genommen.
 permalink: ':title/'
-baseurl: "/"
+baseurl: ""
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author Settings
