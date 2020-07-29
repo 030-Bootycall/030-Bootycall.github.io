@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: episode
 title: "#3 Konstantinos aus Mitte"
 heartthisId: 3116691
 date: 2019-05-21

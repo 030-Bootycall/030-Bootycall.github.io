@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: episode
 title: "#13 Dennis aus Stuttgart"
 heartthisId: 4882173
 date: 2020-06-24

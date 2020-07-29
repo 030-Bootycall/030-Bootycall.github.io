@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: episode
 title: "#5 Helge aus Mitte"
 heartthisId: 3318625
 date: 2019-06-30

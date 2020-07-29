@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: episode
 title: "#15 Barbie Breakout aus Mitte"
 heartthisId: 4976802
 date: 2020-07-24

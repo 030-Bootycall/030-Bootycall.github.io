@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: episode
 title: "#2 Eva aus Mitte"
 heartthisId: 3070067
 date: 2019-05-20

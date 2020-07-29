@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: episode
 title: "#11 Quarantäne-Date mit Helge aus Mitte"
 heartthisId: 4597132
 date: 2020-04-18

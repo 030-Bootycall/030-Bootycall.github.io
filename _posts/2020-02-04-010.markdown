@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: episode
 title: "#10 Phillip aus Steglitz"
 heartthisId: 4339064
 date: 2020-02-04
