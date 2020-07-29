@@ -1,24 +1,28 @@
 <nav class="pagination" role="pagination">
     <ul>
         <p>
-            {% if page.previous.url %}
-            <a class="newer-posts" href="{{ page.previous.url }}"><i class="fa fa-backward" aria-hidden="true"></i></a>
-            <span class="newer-posts">&nbsp;&nbsp;{{ page.previous.title | truncatewords: 5 }}</span>
-            {% else %}
-            <span class="newer-posts">&nbsp;&nbsp;</span>
-            {% endif %}
+            <small>
+                {% if page.previous.url %}
+                <a class="newer-posts" href="{{ page.previous.url }}"><i class="fa fa-backward" aria-hidden="true"></i></a>
+                <span class="newer-posts">&nbsp;&nbsp;{{ page.previous.title }}</span>
+                {% else %}
+                <span class="newer-posts">&nbsp;&nbsp;</span>
+                {% endif %}
+            </small>
         </p>
     </ul>
 </nav>
 <nav class="pagination" role="pagination">
     <ul>
         <p>
-            {% if page.next.url %}    
-            <span class="older-posts">{{ page.next.title | truncatewords: 5 }}&nbsp;&nbsp;</span>
-            <a class="older-posts" href="{{ page.next.url }}"><i class="fa fa-forward" aria-hidden="true"></i></a>
-            {% else %}
-            <span class="older-posts">&nbsp;&nbsp;</span>
-            {% endif %}
+            <small>
+                {% if page.next.url %}    
+                <span class="older-posts">{{ page.next.title }}&nbsp;&nbsp;</span>
+                <a class="older-posts" href="{{ page.next.url }}"><i class="fa fa-forward" aria-hidden="true"></i></a>
+                {% else %}
+                <span class="older-posts">&nbsp;&nbsp;</span>
+                {% endif %}
+            </small>
         </p>
     </ul>
 </nav>
