@@ -7,7 +7,7 @@ description: >
   hier wird kein Blatt vor den Mund genommen.
 permalink: ':title/'
 baseurl: ""
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "www.030-bootycall.de"
 
 # Author Settings
 author: Caramel Mafia
@@ -22,7 +22,7 @@ social:
 - {title: 'Instagram', icon: 'instagram', link: 'https://www.instagram.com/030bootycall'}
 - {title: 'Facebook', icon: 'facebook', link: 'https://www.facebook.com/030Bootycall'}
 - {title: 'RSS Feed', icon: 'rss-square', link: 'https://030-bootycall.podigee.io/feed/mp3'}
-- {title: 'E-Mail', icon: 'envelope-o', link: 'mailto:post@030-bootycall.de'}
+- {title: 'E-Mail', icon: 'envelope-o', link: 'mailto:info@030-bootycall.de'}
 
 # Tracker
 analytics: # Google Analytics

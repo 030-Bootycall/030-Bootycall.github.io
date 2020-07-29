@@ -3,18 +3,19 @@ layout: misc
 title: "Impressum"
 ---
 ## Angaben gemäß § 5 TMG
-Dennis Agyemang  
-Musterstraße 123  
-10123 Berlin
+a|ha booking  
+Hamed Afzal  
+Josefstraße 12  
+40227 Düsseldorf  
 
 ## Kontakt
-Telefon: +49 1567 123456  
-E-Mail: webmaster@030-bootycall.de
+Telefon: +49 211 15820054  
+E-Mail: webmaster@030-bootycall.de  
 
 ## Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
-Dennis Agyemang  
-Musterstraße 123  
-10123 Berlin
+Hamed Afzal  
+Josefstraße 12  
+40227 Düsseldorf
 
 ### Haftung für Inhalte
 Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.
