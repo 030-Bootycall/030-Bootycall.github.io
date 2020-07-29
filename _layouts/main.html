@@ -2,34 +2,34 @@
 layout: default
 ---
 <aside class="sidebar">
-  <header>
-    <div class="about">
-      <div class="cover-author-image">
-        <a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/assets/img/{% if site.author-img %}{{ site.author-img }}{% endif %}" alt="{{ site.author }}"></a>
-      </div>
-      <div class="author-name">{{ site.title }}<br>mit<br>{{ site.author }}</div>
-      <p>{{ site.description }}</p>
-        <ul class="tags">
-        <li><a href="{{ site.baseurl }}/subscribe/" class="tag">Abonnieren</a></li>
-        <li><a href="{{ site.baseurl }}/swag/" class="tag">Swag</a></li>
-        <li><a href="{{ site.baseurl }}/impressum/" class="tag">Impressum</a></li>
-        </ul>
-    </div>
-  </header> <!-- End Header -->
-  <footer>
-    <section class="contact">
-      <h3 class="contact-title">Bootymedia</h3>
-      <ul>
-        {% for item in site.social %}
-            <li><a href="{{ item.link }}" target="_blank" title="{{ item.title }}"><i class="fa fa-{{ item.icon }}" aria-hidden="true"></i></a></li>
-        {% endfor %}
-      </ul>
-    </section> <!-- End Section Contact -->
-    <div class="copyright">
-      <p>{{site.time | date: '%Y'}} &copy; {{site.author}}</p>
-    </div>
-  </footer> <!-- End Footer -->
+    <header>
+        <div class="about">
+            <div class="cover-author-image">
+                <a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/assets/img/{% if site.author-img %}{{ site.author-img }}{% endif %}" alt="{{ site.author }}"></a>
+            </div>
+            <div class="author-name">{{ site.title }}<br>mit<br>{{ site.author }}</div>
+            <p>{{ site.description }}</p>
+            <ul class="tags">
+                <li><a href="{{ site.baseurl }}/subscribe/" class="tag">Abonnieren</a></li>
+                <li><a href="{{ site.baseurl }}/swag/" class="tag">Swag</a></li>
+                <li><a href="{{ site.baseurl }}/impressum/" class="tag">Impressum</a></li>
+            </ul>
+        </div>
+    </header> <!-- End Header -->
+    <footer>
+        <section class="contact">
+            <h3 class="contact-title">Bootymedia</h3>
+            <ul>
+                {% for item in site.social %}
+                <li><a href="{{ item.link }}" target="_blank" title="{{ item.title }}"><i class="fa fa-{{ item.icon }}" aria-hidden="true"></i></a></li>
+                {% endfor %}
+            </ul>
+        </section> <!-- End Section Contact -->
+        <div class="copyright">
+            <p>{{site.time | date: '%Y'}} &copy; {{site.author}}</p>
+        </div>
+    </footer> <!-- End Footer -->
 </aside> <!-- End Sidebar -->
 <div class="content-box clearfix">
-  {{ content }}
+    {{ content }}
 </div>
