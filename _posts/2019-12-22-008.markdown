@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: episode
 title: "#8 Maria aus Tempelhof"
 heartthisId: 3992780
 date: 2019-12-22

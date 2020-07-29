@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: episode
 title: "#4 Collin aus Wedding"
 heartthisId: 3246379
 date: 2019-06-12

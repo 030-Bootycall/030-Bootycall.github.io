@@ -1,0 +1,12 @@
+<div class="container">
+    <nav class="pagination" role="pagination">
+        <ul>
+            {% if page.previous.url %}
+            <p><a class="newer-posts" href="{{ page.previous.url }}"><i class="fa fa-long-arrow-left" aria-hidden="true"></i></a></p>
+            {% endif %}
+            {% if page.next.url %}
+            <p><a class="older-posts" href="{{ page.next.url }}"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></p>
+            {% endif %}
+        </ul>
+    </nav>
+</div>

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: episode
 title: "#7 Jamal aus Rummelsburg"
 heartthisId: 3869040
 date: 2019-10-13
