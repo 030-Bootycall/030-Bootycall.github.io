@@ -16,10 +16,7 @@ layout: main
         <div class="wrap-content">
             <header class="header-page">
                 <h1 class="page-title">{{ page.title }}</h1>
-                {% assign months = "Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember" | split: "|" %}
-                {% assign m = page.date | date: '%-m' | minus: 1 %}
-                {% assign month = months[m] %}
-                <div class="page-date"><span>{{ page.date | date: '%d' }}. {{ month }} {{ page.date | date: '%Y' }}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+                <div class="page-date"><span>{% include german_date.html date=page.date %}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
             </header>
             {{ content | markdownify }}
             <iframe scrolling="no" id="hearthis_at_track_{{ page.heartthisId }}" width="100%" height="130" 

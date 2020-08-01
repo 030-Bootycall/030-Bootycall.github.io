@@ -24,6 +24,9 @@ social:
 - {title: 'RSS Feed', icon: 'rss-square', link: 'https://030-bootycall.podigee.io/feed/mp3'}
 - {title: 'E-Mail', icon: 'envelope-o', link: 'mailto:info@030-bootycall.de'}
 
+collections:
+  - newsitems
+
 # Tracker
 analytics: # Google Analytics
 
@@ -35,6 +38,6 @@ plugins:
   - jemoji
 
 paginate: 4
-paginate_path: "/page/:num"
+paginate_path: "/:num"
 
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]

@@ -21,10 +21,7 @@ permalink: /bootags/
     {% if post.title != null %}
     <div class="tag-list">
         <span><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></span>
-        {% assign months = "Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember" | split: "|" %}
-        {% assign m = post.date | date: '%-m' | minus: 1 %}
-        {% assign month = months[m] %}
-        <small><span>| {{ post.date | date: '%d' }}. {{ month }} {{ post.date | date: '%Y' }}</span></small>
+        <small><span>| {% include german_date.html date=post.date %}</span></small>
     </div>
     {% endif %}
     {% endfor %}

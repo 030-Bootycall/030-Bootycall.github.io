@@ -1,0 +1,28 @@
+---
+layout: main
+---
+<article class="article-page">
+    <div class="page-content">
+    {% for newsitem in site.newsitems reversed %}
+        <div class="wrap-content">
+            <header class="header-page">
+                <h2 class="page-title">{{ newsitem.title }}</h2>
+                <div class="page-date"><span>{% include german_date.html date=newsitem.date %}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+            </header>
+            {{ newsitem.content | markdownify }}
+        </div> <!-- End Wrap Content -->
+        {% if newsitem.img %}
+        <div class="page-news-image">
+            <figure>
+                <img class="page-image" src={{ "/assets/img/" | prepend: site.baseurl | append : newsitem.img }} alt="{{ newsitem.title }}">
+            </figure>
+        </div> <!-- End Page Cover Image -->
+        {% endif %}
+        <div class="page-footer">
+            {% if forloop.last == false %}
+            <hr>
+            {% endif %}
+        </div>
+    {% endfor %}
+    </div> <!-- End Page Content -->
+</article> <!-- End Article Page -->
