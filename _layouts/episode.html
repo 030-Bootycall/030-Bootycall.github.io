@@ -19,7 +19,7 @@ layout: main
                 <div class="page-date"><span>{% include german_date.html date=page.date %}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
             </header>
             {{ content | markdownify }}
-            {% if hearthisId != 0 %}
+            {% if page.hearthisId != 0 %}
             <iframe scrolling="no" id="hearthis_at_track_{{ page.hearthisId }}" width="100%" height="130" 
                     src="https://app.hearthis.at/embed/{{ page.hearthisId }}/transparent/?hcolor=145ba6&color=&style=2&block_size=2&block_space=0&background=0&waveform=0&cover=1&autoplay=0&css=" 
                     frameborder="0" allowtransparency allow="autoplay">
