@@ -1,7 +1,6 @@
 ---
 layout: episode
 title: "#16 Kolja aus Mitte (Teil 1)"
-hearthisId: 0
 date: 2020-09-08
 length: '1:09:30'
 img: episode-016-1.jpg
