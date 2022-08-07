@@ -21,7 +21,7 @@ layout: main
             {{ content | markdownify }}
             {% if page.spotifyId %}
             <iframe style="border-radius:12px" width="100%" height="152"
-                    src="https://open.spotify.com/embed/{{ page.spotifyId }}?utm_source=generator"
+                    src="https://open.spotify.com/embed/episode/{{ page.spotifyId }}?utm_source=generator"
                     allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
             </iframe>
             {% endif %}
@@ -38,5 +38,3 @@ layout: main
         </div> <!-- End Wrap Content -->
     </div> <!-- End Page Content -->
 </article> <!-- End Article Page -->
-
-
