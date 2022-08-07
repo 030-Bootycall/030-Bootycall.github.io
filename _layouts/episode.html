@@ -20,7 +20,7 @@ layout: main
             </header>
             {{ content | markdownify }}
             {% if page.spotifyId %}
-            <iframe style="border-radius:12px" width="100%" height="152"
+            <iframe style="border-radius:12px" width="100%" height="152" frameBorder="0"
                     src="https://open.spotify.com/embed/episode/{{ page.spotifyId }}?utm_source=generator"
                     allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
             </iframe>
