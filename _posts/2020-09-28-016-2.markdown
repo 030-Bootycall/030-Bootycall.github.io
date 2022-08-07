@@ -1,7 +1,7 @@
 ---
 layout: episode
 title: "#16 Kolja aus Mitte (Teil 2)"
-hearthisId: 5163729
+spotifyId: 5M8ryOdzQUg10xEPRj2KXg
 date: 2020-09-28
 length: '45:54'
 img: episode-016-2.jpg

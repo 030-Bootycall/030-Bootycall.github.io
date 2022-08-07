@@ -1,7 +1,7 @@
 ---
 layout: episode
 title: "#17 Alex aus Kreuzberg"
-hearthisId: 5381203
+spotifyId: 5BomGtqojxWUABtxTKXJzn
 date: 2020-12-06
 length: '1:34:17'
 img: episode-017.jpg

@@ -1,7 +1,7 @@
 ---
 layout: episode
 title: "#10 Phillip aus Steglitz"
-hearthisId: 4339064
+spotifyId: 6OW3LETQzW2wP2WcwYauQc
 date: 2020-02-04
 length: '1:09:20'
 img: 030-bootycall.jpg

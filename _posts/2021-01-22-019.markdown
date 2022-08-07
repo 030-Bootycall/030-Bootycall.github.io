@@ -1,7 +1,7 @@
 ---
 layout: episode
 title: "#19 Steffi aus Mitte im Recall"
-hearthisId: 5532161
+spotifyId: 3wNqFmpAnVBocTNAdUBhgV
 date: 2021-01-22
 length: '1:04:17'
 img: 030-bootycall.jpg

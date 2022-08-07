@@ -1,7 +1,7 @@
 ---
 layout: episode
 title: "#9 Nacko aus Kreuzberg"
-hearthisId: 4181290
+spotifyId: 78OS3guKBS8wI0fCqXmNTe
 date: 2019-12-22
 length: '52:59'
 img: 030-bootycall.jpg

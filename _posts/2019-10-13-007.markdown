@@ -1,7 +1,7 @@
 ---
 layout: episode
 title: "#7 Jamal aus Rummelsburg"
-hearthisId: 3869040
+spotifyId: 4sDGNvMrDiVuMlMvAGg1Uf
 date: 2019-10-13
 length: '1:10:12'
 img: 030-bootycall.jpg

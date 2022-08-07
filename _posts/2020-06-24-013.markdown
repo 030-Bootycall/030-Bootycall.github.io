@@ -1,7 +1,7 @@
 ---
 layout: episode
 title: "#13 Dennis aus Stuttgart"
-hearthisId: 4882173
+spotifyId: 4oIcaWetrZwRjdSXE684Jb
 date: 2020-06-24
 length: '1:23:13'
 img: 030-bootycall.jpg

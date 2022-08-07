@@ -1,7 +1,7 @@
 ---
 layout: episode
 title: "#18 Anna Klatsche aus Berlin"
-hearthisId: 5459750
+spotifyId: 7feFSpvMtJHj0ZXVFiCj1g
 date: 2020-12-30
 length: '1:13:27'
 img: episode-018.jpg

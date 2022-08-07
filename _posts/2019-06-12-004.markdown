@@ -1,7 +1,7 @@
 ---
 layout: episode
 title: "#4 Collin aus Wedding"
-hearthisId: 3246379
+spotifyId: 7LDtXGjQ55FaqM86JGaWhh
 date: 2019-06-12
 length: '54:48'
 img: 030-bootycall.jpg

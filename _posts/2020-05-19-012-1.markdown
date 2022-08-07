@@ -1,7 +1,7 @@
 ---
 layout: episode
 title: "#12 Raffa aus Mitte (Teil 1)"
-hearthisId: 4756060
+spotifyId: 4nkDAWwOsee4iL5NxbPyhK
 date: 2020-05-19
 length: '54:41'
 img: 030-bootycall.jpg

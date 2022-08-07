@@ -1,7 +1,7 @@
 ---
 layout: episode
 title: "#11 Quarantäne-Date mit Helge aus Mitte"
-hearthisId: 4597132
+spotifyId: 6ycXbl0fyyw0UV8gN8ZfTH
 date: 2020-04-18
 length: '1:17:31'
 img: 030-bootycall.jpg
